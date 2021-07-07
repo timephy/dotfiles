@@ -32,8 +32,8 @@ if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/bash";
 fi;
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`.
+brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
@@ -53,49 +53,91 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
 brew install xz
+brew install watch
+brew install bat
+brew install bats-core
+# brew install dockutil
+# brew install fasd
+brew install ffmpeg
+# brew install grip
+# brew install httpie
+# brew install jq
+# brew install lynx
+# brew install mackup
+# brew install nano
+# brew install pandoc
+# brew install peco
+brew install psgrep
+brew install python
+# brew install shellcheck
+# brew install stow
+# brew install thefuck
 
 # Install other useful binaries.
-brew install ack
+# brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
-brew install gs
-brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rlwrap
+# brew install gs
+brew install imagemagick
+# brew install lua
+# brew install lynx
+# brew install p7zip
+# brew install pigz
+# brew install pv
+# brew install rename
+# brew install rlwrap
 brew install ssh-copy-id
 brew install tree
-brew install vbindiff
-brew install zopfli
+# brew install vbindiff
+# brew install zopfli
+
+# Install casks
+# brew install --cask dash2
+brew install --cask docker
+brew install --cask dropbox
+brew install --cask firefox
+# brew install --cask font-fira-code
+# brew install --cask font-hack
+# brew install --cask google-backup-and-sync
+brew install --cask google-chrome
+brew install --cask google-chrome-canary
+# brew install --cask hammerspoon
+# brew install --cask kaleidoscope
+# brew install --cask maccy
+# brew install --cask macdown
+# brew install --cask postman
+# brew install --cask raycast
+brew install --cask slack
+# brew install --cask sourcetree
+brew install --cask spotify
+brew install --cask virtualbox
+brew install --cask visual-studio-code
+brew install --cask vlc
 
 # Remove outdated versions from the cellar.
 brew cleanup

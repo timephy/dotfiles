@@ -139,6 +139,7 @@ brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask blender
+brew install --cask iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup

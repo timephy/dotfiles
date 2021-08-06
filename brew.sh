@@ -138,6 +138,7 @@ brew install --cask spotify
 brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
+brew install --cask blender
 
 # Remove outdated versions from the cellar.
 brew cleanup

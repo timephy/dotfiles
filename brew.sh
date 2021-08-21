@@ -115,6 +115,7 @@ brew install ssh-copy-id
 brew install tree
 # brew install vbindiff
 # brew install zopfli
+brew install youtube-dl
 
 # Install casks
 # brew install --cask dash2

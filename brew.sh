@@ -135,12 +135,13 @@ brew install --cask google-chrome-canary
 # brew install --cask raycast
 brew install --cask slack
 # brew install --cask sourcetree
-brew install --cask spotify
+# brew install --cask spotify
 brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask blender
 brew install --cask iterm2
+brew install --cask discord
 
 # Remove outdated versions from the cellar.
 brew cleanup

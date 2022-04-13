@@ -144,6 +144,7 @@ brew install --cask vlc
 brew install --cask blender
 brew install --cask iterm2
 brew install --cask discord
+brew install --cask raycast
 
 # Remove outdated versions from the cellar.
 brew cleanup

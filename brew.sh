@@ -116,6 +116,8 @@ brew install tree
 # brew install vbindiff
 # brew install zopfli
 brew install youtube-dl
+brew install autossh
+brew install fish
 
 # Install casks
 # brew install --cask dash2

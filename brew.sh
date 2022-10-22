@@ -96,6 +96,9 @@ brew install python
 # brew install shellcheck
 # brew install stow
 # brew install thefuck
+brew install exa
+brew install fzf
+brew install zoxide
 
 # Install other useful binaries.
 # brew install ack
@@ -118,6 +121,11 @@ brew install tree
 brew install youtube-dl
 brew install autossh
 brew install fish
+brew install exiftool
+
+# LaTeX
+brew install texlive
+brew install latexindent
 
 # Install casks
 # brew install --cask dash2
@@ -133,11 +141,10 @@ brew install --cask google-chrome-canary
 # brew install --cask kaleidoscope
 # brew install --cask maccy
 # brew install --cask macdown
-# brew install --cask postman
-# brew install --cask raycast
+brew install --cask postman
 brew install --cask slack
 # brew install --cask sourcetree
-# brew install --cask spotify
+brew install --cask spotify
 brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask vlc
@@ -145,6 +152,7 @@ brew install --cask blender
 brew install --cask iterm2
 brew install --cask discord
 brew install --cask raycast
+brew install --cask whatsapp
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -159,6 +159,7 @@ brew install --cask raycast
 brew install --cask whatsapp
 brew install --cask warp
 brew install --cask obsidian
+brew install --cask teamspeak-client
 
 # Remove outdated versions from the cellar.
 brew cleanup

@@ -123,6 +123,10 @@ brew install autossh
 brew install fish
 brew install exiftool
 
+# Programming Languages
+brew install node
+brew install rust
+
 # LaTeX
 brew install texlive
 brew install latexindent

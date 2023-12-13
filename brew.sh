@@ -153,6 +153,8 @@ brew install --cask iterm2
 brew install --cask discord
 brew install --cask raycast
 brew install --cask whatsapp
+brew install --cask warp
+brew install --cask obsidian
 
 # Remove outdated versions from the cellar.
 brew cleanup

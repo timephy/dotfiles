@@ -10,6 +10,9 @@ export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PA
 # Add Homebrew to the `$PATH`
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH";
 
+# Add Cargo bins to the `$PATH`
+export PATH="/Users/timguggenmos/.cargo/bin:$PATH";
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

@@ -127,6 +127,9 @@ brew install exiftool
 brew install node
 brew install rust
 
+# Mobile Development
+brew install android-platform-tools
+
 # LaTeX
 brew install texlive
 brew install latexindent
@@ -151,6 +154,7 @@ brew install --cask slack
 brew install --cask spotify
 brew install --cask virtualbox
 brew install --cask visual-studio-code
+brew install --cask android-studio
 brew install --cask vlc
 brew install --cask blender
 brew install --cask iterm2

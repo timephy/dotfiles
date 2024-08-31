@@ -32,8 +32,8 @@ fi
 # List all files colorized in long format, excluding . and ..
 # alias la="ls -lAF ${colorflag}"
 # ubuntu style
-alias ll='exa -alh'
-alias llt='exa -alh --tree'
+alias ll='ls -alh'
+alias llt='ls -alh --tree'
 
 
 # List only directories
@@ -154,3 +154,6 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 alias media='~/code/file-import-tool/__main__.py'
+
+# open Google Chrome with certain cli options
+alias chrome-dev="open -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --autoplay-policy=no-user-gesture-required"

@@ -96,7 +96,7 @@ brew install python
 # brew install shellcheck
 # brew install stow
 # brew install thefuck
-# brew install exa
+brew install eza
 brew install fzf
 brew install zoxide
 

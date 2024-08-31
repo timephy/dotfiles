@@ -32,8 +32,8 @@ fi
 # List all files colorized in long format, excluding . and ..
 # alias la="ls -lAF ${colorflag}"
 # ubuntu style
-alias ll='ls -alh'
-alias llt='ls -alh --tree'
+alias ll='eza -alh --icons'
+alias llt='eza -alh --icons --tree'
 
 
 # List only directories

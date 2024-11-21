@@ -125,7 +125,9 @@ brew install exiftool
 
 # Programming Languages
 brew install node
+brew install deno
 brew install rust
+brew install rustfmt
 
 # Mobile Development
 brew install android-platform-tools
@@ -164,6 +166,9 @@ brew install --cask whatsapp
 brew install --cask warp
 brew install --cask obsidian
 brew install --cask teamspeak-client
+brew install --cask openvpn-connect
+brew install --cask arc
+brew install --cask forklift
 
 # Remove outdated versions from the cellar.
 brew cleanup

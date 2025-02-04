@@ -133,14 +133,14 @@ brew install rustfmt
 brew install android-platform-tools
 
 # LaTeX
-brew install texlive
-brew install latexindent
+# brew install texlive
+# brew install latexindent
 
 # Install casks
 # brew install --cask dash2
 brew install --cask docker
 brew install --cask dropbox
-brew install --cask firefox
+# brew install --cask firefox
 # brew install --cask font-fira-code
 # brew install --cask font-hack
 # brew install --cask google-backup-and-sync
@@ -159,7 +159,7 @@ brew install --cask visual-studio-code
 brew install --cask android-studio
 brew install --cask vlc
 brew install --cask blender
-brew install --cask iterm2
+# brew install --cask iterm2
 brew install --cask discord
 brew install --cask raycast
 brew install --cask whatsapp
@@ -168,7 +168,7 @@ brew install --cask obsidian
 brew install --cask teamspeak-client
 brew install --cask openvpn-connect
 brew install --cask arc
-brew install --cask forklift
+# brew install --cask forklift
 
 # Remove outdated versions from the cellar.
 brew cleanup

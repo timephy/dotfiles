@@ -154,7 +154,7 @@ brew install --cask postman
 brew install --cask slack
 # brew install --cask sourcetree
 brew install --cask spotify
-brew install --cask virtualbox
+# brew install --cask virtualbox
 brew install --cask visual-studio-code
 brew install --cask android-studio
 brew install --cask vlc

@@ -128,6 +128,7 @@ brew install node
 brew install deno
 brew install rust
 brew install rustfmt
+brew install chruby ruby-install
 
 # Mobile Development
 brew install android-platform-tools
@@ -163,7 +164,8 @@ brew install --cask blender
 brew install --cask discord
 brew install --cask raycast
 brew install --cask whatsapp
-brew install --cask warp
+# brew install --cask warp
+brew install --cask ghostty
 brew install --cask obsidian
 brew install --cask teamspeak-client
 brew install --cask openvpn-connect

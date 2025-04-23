@@ -129,6 +129,7 @@ brew install deno
 brew install rust
 brew install rustfmt
 brew install chruby ruby-install
+brew install openjdk
 
 # Mobile Development
 brew install android-platform-tools
@@ -171,6 +172,7 @@ brew install --cask teamspeak-client
 brew install --cask openvpn-connect
 brew install --cask arc
 # brew install --cask forklift
+brew install --cask background-music
 
 # Remove outdated versions from the cellar.
 brew cleanup

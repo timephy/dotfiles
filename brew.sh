@@ -173,6 +173,7 @@ brew install --cask openvpn-connect
 brew install --cask arc
 # brew install --cask forklift
 brew install --cask background-music
+brew install --cask thunderbird
 
 # Remove outdated versions from the cellar.
 brew cleanup

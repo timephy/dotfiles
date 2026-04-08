@@ -171,6 +171,7 @@ brew install --cask obsidian
 brew install --cask teamspeak-client
 brew install --cask openvpn-connect
 brew install --cask arc
+brew install --cask cmux
 # brew install --cask forklift
 brew install --cask background-music
 brew install --cask thunderbird
